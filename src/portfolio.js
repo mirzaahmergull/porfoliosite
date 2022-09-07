@@ -49,52 +49,79 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "CRAZY DATA ENGINEER  & FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
     emoji(
       "⚡ Architect and Develop Data ETL piplines while ensuring low cost and stability using cloud services"
     ),
     emoji("⚡ Automate hectic long processes using serverless cloud solutions"),
     emoji("⚡ Drive meaningful Analytics from Data"),
-    emoji(
-      "⚡ Develop full stack web applications in Python and React"
-    )
+    emoji("⚡ Develop full stack web applications in Python and React")
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
   https://fontawesome.com/icons?d=gallery */
-  
+
   softwareSkills: [
     {
-      skillName: "python",
+      skillName: "Python",
       fontAwesomeClassname: "fab fa-python"
     },
     {
-      skillName: "django",
-      fontAwesomeClassname: "fab fa-django"
-    },
-    {
-      skillName: "django rest framework",
-      fontAwesomeClassname: "fab fa-drf"
-    },
-    {
-      skillName: "gcp",
+      skillName: "GCP",
       fontAwesomeClassname: "fab fa-google"
     },
     {
-      skillName: "snowflake",
+      skillName: "CSS3",
+      fontAwesomeClassname: "fab fa-css3-alt"
+    },
+    {
+      skillName: "JavaScript",
+      fontAwesomeClassname: "fab fa-js"
+    },
+    {
+      skillName: "Reactjs",
+      fontAwesomeClassname: "fab fa-react"
+    },
+    {
+      skillName: "SQL-database",
+      fontAwesomeClassname: "fas fa-database"
+    },
+    {
+      skillName: "AWS",
+      fontAwesomeClassname: "fab fa-aws"
+    },
+    {
+      skillName: "Firebase",
+      fontAwesomeClassname: "fas fa-fire"
+    }
+  ],
+  display: true // Set false to hide this section, defaults to true
+};
+
+const otherSkills =  [
+    {
+      skillName: "Django",
+      fontAwesomeClassname: "fab fa-django"
+    },
+    {
+      skillName: "Django Rest Framework",
+      fontAwesomeClassname: "fab fa-drf"
+    },
+    {
+      skillName: "Snowflake",
       fontAwesomeClassname: "fab fa-snowflake"
     },
     {
-      skillName: "postgres",
+      skillName: "Postgres",
       fontAwesomeClassname: "fab fa-postgres"
     },
     {
-      skillName: "data warehousing",
+      skillName: "Data Warehousing",
       fontAwesomeClassname: "fab fa-datawarehousing"
     },
     {
-      skillName: "github actions",
+      skillName: "Github Actions",
       fontAwesomeClassname: "fab fa-python"
     },
     {
@@ -106,7 +133,7 @@ const skillsSection = {
       fontAwesomeClassname: "fab fa-cd/cd"
     },
     {
-      skillName: "docker",
+      skillName: "Docker",
       fontAwesomeClassname: "fab fa-docker"
     },
     {
@@ -114,40 +141,10 @@ const skillsSection = {
       fontAwesomeClassname: "fab fa-mongo"
     },
     {
-      skillName: "tableau",
+      skillName: "Tableau",
       fontAwesomeClassname: "fab fa-html5"
     },
-    {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
-    },
-    {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
-    },
-    {
-      skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
-    },
-    {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
-    },
-    {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
-    },
-    {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
-    },
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    },
-  ],
-  display: true // Set false to hide this section, defaults to true
-};
+  ]
 
 // Education Section
 
@@ -160,9 +157,8 @@ const educationInfo = {
       subHeader: "Bachelors of Computer Science",
       duration: "September 2018 - July 2022",
       desc: "Bachelors studies with final year project in Web",
-      descBullets: [
-      ]
-    },
+      descBullets: []
+    }
   ]
 };
 
@@ -227,7 +223,6 @@ const workExperiences = {
         "Solve Complex Programming Problems",
         "Share my knowledge with juniors",
         "and much more, Download my CV for more Information"
-
       ]
     },
     {
@@ -322,7 +317,8 @@ const achievementSection = {
 
   achievementsCards: [
     {
-      title: "Bronze Medal in ICPC Asia Topi Regional On-site Programming Contest,2021",
+      title:
+        "Bronze Medal in ICPC Asia Topi Regional On-site Programming Contest,2021",
       subtitle:
         "Was part of the team that got selected second time for participation in ALL-PAKISTAN programming competition and achieved Bronze Medal",
       image: require("./assets/images/icpcLogo.png"),
@@ -331,9 +327,9 @@ const achievementSection = {
         {
           name: "Medal",
           url: "https://drive.google.com/file/d/1tIanq9yxTsWXVb5Qdl0uP7uQKvkNJ7A5/view?usp=sharing"
-        },
+        }
       ]
-    },
+    }
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -417,6 +413,7 @@ export {
   socialMediaLinks,
   splashScreen,
   skillsSection,
+  otherSkills,
   educationInfo,
   techStack,
   workExperiences,
