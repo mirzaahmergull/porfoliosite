@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.1a6005f5.chunk.css",
-    "main.js": "/static/js/main.b570baed.chunk.js",
-    "main.js.map": "/static/js/main.b570baed.chunk.js.map",
+    "main.js": "/static/js/main.ade5ba9e.chunk.js",
+    "main.js.map": "/static/js/main.ade5ba9e.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.0c36ee15.js",
     "runtime-main.js.map": "/static/js/runtime-main.0c36ee15.js.map",
     "static/js/2.55547e96.chunk.js": "/static/js/2.55547e96.chunk.js",
@@ -14,18 +14,17 @@
     "static/js/4.20324049.chunk.js": "/static/js/4.20324049.chunk.js",
     "static/js/4.20324049.chunk.js.map": "/static/js/4.20324049.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.c13f7bd38a3559194bc83b9bb3b92bd0.js": "/precache-manifest.c13f7bd38a3559194bc83b9bb3b92bd0.js",
+    "precache-manifest.69bc470171f6aa741e75d2bd76183ced.js": "/precache-manifest.69bc470171f6aa741e75d2bd76183ced.js",
     "service-worker.js": "/service-worker.js",
     "static/css/3.df879eac.chunk.css.map": "/static/css/3.df879eac.chunk.css.map",
     "static/css/4.e91a4b36.chunk.css.map": "/static/css/4.e91a4b36.chunk.css.map",
     "static/css/main.1a6005f5.chunk.css.map": "/static/css/main.1a6005f5.chunk.css.map",
     "static/js/2.55547e96.chunk.js.LICENSE.txt": "/static/js/2.55547e96.chunk.js.LICENSE.txt",
     "static/media/index.css": "/static/media/Montserrat-Regular.ee653992.ttf",
-    "static/media/codeInLogo.webp": "/static/media/codeInLogo.47a7a717.webp",
     "static/media/contactMailDark.svg": "/static/media/contactMailDark.51cf7192.svg",
     "static/media/developerActivity.svg": "/static/media/developerActivity.59389695.svg",
+    "static/media/icpcLogo.png": "/static/media/icpcLogo.6991c750.png",
     "static/media/manOnTable.svg": "/static/media/manOnTable.52be3144.svg",
-    "static/media/quoraLogo.png": "/static/media/quoraLogo.4b2938b9.png",
     "static/media/skill.svg": "/static/media/skill.34409398.svg",
     "static/media/TalkCard.scss": "/static/media/talksCardBack.13780cdd.svg"
   },
@@ -33,6 +32,6 @@
     "static/js/runtime-main.0c36ee15.js",
     "static/js/2.55547e96.chunk.js",
     "static/css/main.1a6005f5.chunk.css",
-    "static/js/main.b570baed.chunk.js"
+    "static/js/main.ade5ba9e.chunk.js"
   ]
 }
