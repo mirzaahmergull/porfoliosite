@@ -52,11 +52,12 @@ const skillsSection = {
   subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ Architect and Develop Data ETL piplines while ensuring low cost and stability using cloud services"
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
+    emoji("⚡ Automate hectic long processes using serverless cloud solutions"),
+    emoji("⚡ Drive meaningful Analytics from Data"),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "⚡ Develop full stack web applications in Python and React"
     )
   ],
 
@@ -232,7 +233,7 @@ const workExperiences = {
     {
       role: "Freelancer",
       company: "Fiverr",
-      companylogo: require("./assets/images/quoraLogo.png"),
+      companylogo: require("./assets/images/fiverrLogo.png"),
       date: "May 2020 – July 2021",
       desc: "Freelance services including python automation, python scripts, data scrapping, data cleasing and processing"
     }
@@ -324,7 +325,7 @@ const achievementSection = {
       title: "Bronze Medal in ICPC Asia Topi Regional On-site Programming Contest,2021",
       subtitle:
         "Was part of the team that got selected second time for participation in ALL-PAKISTAN programming competition and achieved Bronze Medal",
-      image: require("./assets/images/codeInLogo.webp"),
+      image: require("./assets/images/icpcLogo.png"),
       imageAlt: "ICPC Logo",
       footerLink: [
         {
