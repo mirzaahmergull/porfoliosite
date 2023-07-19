@@ -26,7 +26,7 @@ const greeting = {
     "A passionate Data Engineer and Full Stack Developer 🚀 having an experience of building Data ETL-pipelines using various principles and power of cloud, Full Stack Web applications with Python / Django / Reactjs / and some other cool libraries, tools and frameworks."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1aBVTpaEofCyY2HOTFxbsiTZtMn9O6ip6/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1jm_MN2teGVYNolIXvXVnG1vZ2XfONzry/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -38,7 +38,7 @@ const socialMediaLinks = {
   gmail: "mirzaahmergull@outlook.com",
   facebook: "https://www.facebook.com/mirzaahmergull",
   medium: "https://medium.com/@mirzaahmergull",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  stackoverflow: "https://stackoverflow.com/users/13826096/mirzaahmergull",
   instagram: "https://www.instagram.com/mirzaahmergull/",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
